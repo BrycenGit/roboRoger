@@ -8,6 +8,9 @@ _Version 1, Date_
 * **Spec** The program will return a range of numbers from 0 to the users inputted number.
   * Input: "4"
   * Output: ['0','1','2','3','4']
+* **Spec** The program will replace all '3' with 'Won't you be my neighbor?'
+  * Input: "4"
+  * Output: ['0','1','2','Won't you be my neighbor?','4']
 
 ## _Languages Used_
 * HTML

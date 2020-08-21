@@ -3,7 +3,7 @@
 _Version 1, 8/21/20_
 
 ## _Description_
-This program will take the user input as a number and return it as a robot.
+This program will take the user input as a number and return an array of numbers as a robot.
 
 ## _Specs_
 * **Spec** The program will return a range of numbers from 0 to the users inputted number.
@@ -31,6 +31,9 @@ This program will take the user input as a number and return it as a robot.
 * Clone repository to desktop.
 * Open repository.
 * Drag index.html file into an open browser.
+
+## _Repository_
+* [gh-pages](https://brycengit.github.io/roboRoger/)
 
 ### _Liscensing_
  **MIT liscense**

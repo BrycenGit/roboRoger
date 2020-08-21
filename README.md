@@ -24,17 +24,13 @@ This program will take the user input as a number and return it as a robot.
 * CSS
 * Bootstrap
 * Markdown
-* JaveScrip
+* JavaScrip
 * Jquery
 
 ## _Setup_
 * Clone repository to desktop.
 * Open repository.
 * Drag index.html file into an open browser.
-* You can also use the link to gh-pages to see deployed program.
-
-## _Repository_
-* [gh-pages](https://brycengit.github.io//)
 
 ### _Liscensing_
  **MIT liscense**

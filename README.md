@@ -11,6 +11,12 @@ _Version 1, Date_
 * **Spec** The program will replace all '3' with 'Won't you be my neighbor?'
   * Input: "4"
   * Output: ['0','1','2','Won't you be my neighbor?','4']
+* **Spec** The program will replace all '2' with 'boop?'
+  * Input: "4"
+  * Output: ["0", "1", "Boop!", "Won't you be my neighbor?", "4"]
+* **Spec** The program will replace all '1' with 'beep?'
+  * Input: "4"
+  * Output: ["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4"]
 
 ## _Languages Used_
 * HTML

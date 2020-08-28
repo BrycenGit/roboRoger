@@ -1,19 +1,45 @@
+function createNumberArray(parameter) {
+  for (i = 0; i <= parameter; i++) {
+    array.push(" " + i);
+  }
+}
 
-$(document).ready(function() {
-  $("#formOne").submit(function(event) {
+function translateToRobot() {
+  array.forEach(function (item) {
+    if (item.includes(3)) {
+      finalArray.push("Will you be my neighbor?");
+    } else if (item.includes(2)) {
+      finalArray.push("boop!");
+    } else if (item.includes(1)) {
+      finalArray.push("beep!");
+    } else {
+      finalArray.push(item);
+    }
+  });
+}
+
+function finalOutPut(parameter) {
+  createNumberArray(parameter);
+  translateToRobot();
+  console.log(array);
+  console.log(finalArray);
+}
+
+let array = [];
+let finalArray = [];
+
+$(document).ready(function () {
+  $("#formOne").submit(function (event) {
     event.preventDefault();
     let number = $("#number").val();
-    let array = [];
-    for (i=0; i<=number; i++) {
-      array.push(' ' + i);
-      console.log(array[i]);
+
+    if (array.length > 0) {
+      array.length = 0;
+      finalArray.length = 0;
+      finalOutPut(number);
+    } else {
+      finalOutPut(number);
     }
-    for(i = 0; i < array.length; i++) {
-        array[i] = array[i].replace(/3/g, "Won't you be my neighbor?");
-        array[i] = array[i].replace(/1/g, "Beep!");
-        array[i] = array[i].replace(/2/g, "Boop!");
-    }
-    $("#show").text(array);
-    console.log(array);
+    $("#show").text(finalArray);
   });
 });

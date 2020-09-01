@@ -10,6 +10,8 @@ function translateToRobot(arrayParameter) {
   arrayParameter.forEach(function (item) {
     if (item.includes(3)) {
       finalArray.push("will you be my neighbor?");
+    } else if (item.includes(2)) {
+      finalArray.push("boop")
     } else {
       finalArray.push(item);
     }
@@ -24,6 +26,5 @@ $(document).ready(function () {
     let numberArray = createNumberArray(number);
     let roboArray = translateToRobot(numberArray);
     $("#show").text(roboArray);
-    console.log(roboArray);
   });
 });

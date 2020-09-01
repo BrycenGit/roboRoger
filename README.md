@@ -12,12 +12,13 @@ This program will take the user input as a number and return an array of numbers
 * **Spec** For every item in the array the program will push that item to a new array.
   * Input: ['0', '1', '2', '3', '4']
   * Output: ['0', '1', '2', '3', '4']
-* **Spec** For every item in the array that includes 3 the program will replace it with "will you be my neighbor".
+* **Spec** For every item in the array that includes 3 the program will push "will you be my neighbor" to robaArray.
   * Input: ['0', '1', '2', '3', '4']
   * Output: ['0', '1', '2', 'will you be my neighbor', '4']
 * **Spec** 
-  * Input: 
-  * Output: 
+  * Input: For every item in the array that includes 2 the program will push "boop" to roboArray.
+  * Output: ['0', '1', 'boop', 'will you be my neighbor', '4']
+  
 
 ## _Languages Used_
 * HTML

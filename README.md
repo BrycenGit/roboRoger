@@ -6,19 +6,19 @@ _Version 1, 8/21/20_
 This program will take the user input as a number and return an array of numbers as a robot.
 
 ## _Specs_
-* **Spec** The program will return an array of numbers from 0 to the users inputted number.
+1. **Spec:** The program will return an array of numbers from 0 to the users inputted number.
   * Input: 4
   * Output: ['0', '1', '2', '3', '4']
 
-* **Spec** The program will replace all numbers including '1' with 'beep'.
+2. **Spec:** The program will replace all numbers including '1' with 'beep'.
   * Input: 1
   * Output: ['0', 'beep', '2', '3', '4']
 
-* **Spec** It will replace all numbers including '2' with 'boop' and take priority over 1.
+3. **Spec:** It will replace all numbers including '2' with 'boop' and take priority over 1.
   * Input: 12
   * Output: ['0', 'beep', 'boop', '3'... '9', 'beep', 'beep', 'boop']
 
-* **Spec** It will replace all numbers including '3' with 'will you be my neighbor?' and take priority over 2 and 1.
+4. **Spec:** It will replace all numbers including '3' with 'will you be my neighbor?' and take priority over 2 and 1.
   * Input: 13
   * Output: ['0', 'beep', 'boop', 'will you be my neighbor', '4'... '9', 'beep', 'beep', 'boop', 'will you be my neighbor']
 

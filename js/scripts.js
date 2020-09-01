@@ -1,13 +1,14 @@
 function createNumberArray(parameter) {
-  let array = []
+  let array = [];
   for (i = 0; i <= parameter; i++) {
     array.push(" " + i);
   }
   console.log(array);
-  return;
+
 }
 
-function translateToRobot() {
+function translateToRobot(array) {
+
   array.forEach(function (item) {
     if (item.includes(3)) {
       finalArray.push("Will you be my neighbor?");
@@ -18,7 +19,9 @@ function translateToRobot() {
     } else {
       finalArray.push(item);
     }
+    
   });
+  console.log(finalArray);
 }
 
 function finalOutPut(parameter) {
@@ -29,15 +32,16 @@ function finalOutPut(parameter) {
 }
 
 // let array = [];
-let finalArray = [];
+// let finalArray = [];
 
 $(document).ready(function () {
   $("#formOne").submit(function (event) {
     event.preventDefault();
     let number = $("#number").val();
+    
 
     createNumberArray(number);
-    console.log(createNumberArray(number));
+    
 
     // if (array.length > 0) {
     //   array.length = 0;

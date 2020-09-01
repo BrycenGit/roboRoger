@@ -18,7 +18,10 @@ This program will take the user input as a number and return an array of numbers
 * **Spec** 
   * Input: For every item in the array that includes 2 the program will push "boop" to roboArray.
   * Output: ['0', '1', 'boop', 'will you be my neighbor', '4']
-  
+* **Spec** 
+  * Input: For every item in the array that includes 1 the program will push "beep" to roboArray.
+  * Output: ['0', 'beep', 'boop', 'will you be my neighbor', '4']
+
 
 ## _Languages Used_
 * HTML

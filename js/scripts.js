@@ -12,6 +12,8 @@ function translateToRobot(arrayParameter) {
       finalArray.push("will you be my neighbor?");
     } else if (item.includes(2)) {
       finalArray.push("boop")
+    } else if (item.includes(1)) {
+      finalArray.push("beep")
     } else {
       finalArray.push(item);
     }

@@ -4,6 +4,7 @@ function createNumberArray(parameter) {
     array.push(" " + i);
   }
   console.log(array);
+  return array;
 
 }
 
@@ -38,9 +39,9 @@ $(document).ready(function () {
   $("#formOne").submit(function (event) {
     event.preventDefault();
     let number = $("#number").val();
+    let numberArray = createNumberArray(number);
     
-
-    createNumberArray(number);
+    console.log(numberArray);
     
 
     // if (array.length > 0) {

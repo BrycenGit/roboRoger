@@ -1,7 +1,10 @@
 function createNumberArray(parameter) {
+  let array = []
   for (i = 0; i <= parameter; i++) {
     array.push(" " + i);
   }
+  console.log(array);
+  return;
 }
 
 function translateToRobot() {
@@ -25,7 +28,7 @@ function finalOutPut(parameter) {
   console.log(finalArray);
 }
 
-let array = [];
+// let array = [];
 let finalArray = [];
 
 $(document).ready(function () {
@@ -33,13 +36,16 @@ $(document).ready(function () {
     event.preventDefault();
     let number = $("#number").val();
 
-    if (array.length > 0) {
-      array.length = 0;
-      finalArray.length = 0;
-      finalOutPut(number);
-    } else {
-      finalOutPut(number);
-    }
-    $("#show").text(finalArray);
+    createNumberArray(number);
+    console.log(createNumberArray(number));
+
+    // if (array.length > 0) {
+    //   array.length = 0;
+    //   finalArray.length = 0;
+    //   finalOutPut(number);
+    // } else {
+    //   finalOutPut(number);
+    // }
+    // $("#show").text(finalArray);
   });
 });

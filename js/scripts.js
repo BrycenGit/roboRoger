@@ -28,5 +28,8 @@ $(document).ready(function () {
     let numberArray = createNumberArray(number);
     let roboArray = translateToRobot(numberArray);
     $("#show").text(roboArray);
+    $("#show").show();
+    $("img").show();
+
   });
 });

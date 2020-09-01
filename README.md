@@ -6,18 +6,18 @@ _Version 1, 8/21/20_
 This program will take the user input as a number and return an array of numbers as a robot.
 
 ## _Specs_
-* **Spec** The program will return a range of numbers from 0 to the users inputted number.
+* **Spec** The program will return an array of numbers from 0 to the users inputted number.
   * Input: "4"
-  * Output: ['0','1','2','3','4']
-* **Spec** The program will replace all '3' with 'Won't you be my neighbor?'
-  * Input: "4"
-  * Output: ['0','1','2','Won't you be my neighbor?','4']
-* **Spec** The program will replace all '2' with 'boop?'
-  * Input: "4"
-  * Output: ["0", "1", "Boop!", "Won't you be my neighbor?", "4"]
-* **Spec** The program will replace all '1' with 'beep?'
-  * Input: "4"
-  * Output: ["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4"]
+  * Output: ['0', '1', '2', '3', '4']
+* **Spec** 
+  * Input: 
+  * Output: 
+* **Spec** 
+  * Input: 
+  * Output: 
+* **Spec** 
+  * Input: 
+  * Output: 
 
 ## _Languages Used_
 * HTML

@@ -8,7 +8,9 @@ function createNumberArray(parameter) {
 function translateToRobot(arrayParameter) {
   let finalArray = [];
   arrayParameter.forEach(function (item) {
-    if (item) {
+    if (item.includes(3)) {
+      finalArray.push("will you be my neighbor?");
+    } else {
       finalArray.push(item);
     }
   });
@@ -21,6 +23,7 @@ $(document).ready(function () {
     let number = $("#number").val();
     let numberArray = createNumberArray(number);
     let roboArray = translateToRobot(numberArray);
+    $("#show").text(roboArray);
     console.log(roboArray);
   });
 });
